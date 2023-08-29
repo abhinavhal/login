@@ -1,0 +1,83 @@
+.page{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.employee-form {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: #2e7474;
+}
+
+.employee-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.employee-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.employee-form label {
+  font-size: 18px;
+}
+
+.employee-form input[type="text"],
+.employee-form input[type="email"],
+.employee-form input[type="date"],
+.employee-form select {
+  width: 50%;
+  padding: 4px;
+  border: 1px solid #cc2c2c;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f7f7f7;
+}
+
+.employee-form input[type="radio"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.employee-form button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+  width: 40%;
+}
+
+.employee-form button:hover {
+  background-color: #0056b3;
+}
+
+.employee-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-form .form-group label {
+  margin-bottom: 5px;
+}
+
+.employee-form .form-group input[type="radio"] {
+  margin-right: 10px;
+}
+
+.employee-form .form-group select {
+  padding: 8px;
+}
